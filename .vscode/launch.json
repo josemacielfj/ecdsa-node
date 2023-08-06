@@ -11,7 +11,14 @@
             "program": "${workspaceFolder}/server/index.js",
             "cwd": "${workspaceFolder}",
             "sourceMaps": true        },
-        {
+            {
+                "name": "Launch client",
+                "type": "node",
+                "request": "launch",
+                "program": "${workspaceFolder}/client/src/server.js",
+                "cwd": "${workspaceFolder}",
+                "sourceMaps": true        },
+            {
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
