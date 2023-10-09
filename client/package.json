@@ -1,11 +1,12 @@
 {
   "name": "ecdsa-node",
+  "homepage": "/ecdsa",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --base=/ecdsa",
     "preview": "vite preview"
   },
   "dependencies": {
